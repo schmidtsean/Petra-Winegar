@@ -1,27 +1,28 @@
 import { Image, Menu } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 import CandR from '../images/CandR.jpeg';
-import { Img, Center } from '../styles/NavbarStyle';
+import { Img, Center, LinkItem, Links } from '../styles/NavbarStyle';
 const Navbar = () => {
   return (
     <Center>
     <Img src={CandR} />
     <Menu>
-      <Link to="/">
-        <Menu.Item>
+      <LinkItem>
+        <Links to="/">
           Home
-        </Menu.Item>
-      </Link>
-      <Link to="/about">
-        <Menu.Item>
+        </Links>
+      </LinkItem>
+      <LinkItem>
+        <Links to="/about">
           About Me
-        </Menu.Item>
-      </Link>
-      <Link to="/mortgagecalculator">
-        <Menu.Item>
+        </Links>
+      </LinkItem>
+      <LinkItem>
+        <Links to="/mortgagecalculator" >
           Mortgage Calculator
-        </Menu.Item>
-      </Link>
+        </Links>
+      </LinkItem>
+
     </Menu>
     </Center>
   )
