@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import { Image } from "semantic-ui-react";
+import { Image, Menu } from "semantic-ui-react";
 import styled from "styled-components";
 
 export const Img = styled(Image)`
-width: 10% !important;
-height: 50% !important;
+width: 15% !important;
+height: 57% !important;
+text-align: left !important;
 `
 
 export const Links = styled(Link)`
@@ -12,25 +13,37 @@ color: white;
 `
 
 export const LinkItem = styled.li`
-  z-index: 3;
-  order: 3;
   padding: 1em 0%;
   list-style: none;
-  padding: 6px;
-  text-align: center;
+  padding: 5%;
   color: white;
-  display: inline;
+ 
+  
 `
 
 export const Center = styled.div`
-background-color: black;
+background-color: #400D32;
 height: 80px;
 margin-top: -80;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 1rem;
+font-size: 1.25rem;
 position: sticky;
 top: 0;
-z-index: 10;
+`
+
+export const ImgWrap = styled.div`
+height: 175%;
+width: 300%;
+padding-top: 3.15%;
+padding-left: 5%;
+position: absoulte;
+`
+
+export const MenuWrap = styled(Menu)`
+align-items: center;
+display: flex;
+padding-right: 20%;
+
 `
