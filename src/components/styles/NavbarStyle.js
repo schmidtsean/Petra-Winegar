@@ -22,7 +22,7 @@ export const LinkItem = styled.li`
 `
 
 export const Center = styled.div`
-background-color: #400D32;
+background-color: #6E6E6E;
 height: 80px;
 margin-top: -80;
 display: flex;
@@ -34,10 +34,10 @@ top: 0;
 `
 
 export const ImgWrap = styled.div`
-height: 175%;
+height: 150%;
 width: 300%;
-padding-top: 3.15%;
-padding-left: 5%;
+padding-top: 2.5%;
+padding-left: 0.5%;
 position: absoulte;
 `
 
