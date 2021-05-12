@@ -1,7 +1,13 @@
-import { Contain } from "../styles/AboutStyles";
+import { Contain, ImageWrap, Img, GridStyle } from "../styles/AboutStyles";
+import Petra from '../images/Petra.jpeg';
+import { Grid } from "semantic-ui-react";
 
 const About = () => (
   <>
+    <GridStyle>
+    <ImageWrap>
+      <Img src={Petra} />
+    </ImageWrap>
     <Contain>
       <p>As a Business Executive of 20 years, I have had the privilege of associating with several top companies throughout the world. It is, therefore, both a pleasure and an honor to work with the most respected and dedicated real estate company in Salt Lake City.
 
@@ -11,6 +17,7 @@ const About = () => (
 
         With a vested interest in ensuring all our continued prosperity, I offer my personal and professional commitment to each client I have the honor to serve, my sincere dedication, industry knowledge and professionalism.</p>
     </Contain>
+    </GridStyle>
   </>
 )
 
