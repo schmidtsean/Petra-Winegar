@@ -1,14 +1,17 @@
 import { Link, withRouter } from 'react-router-dom';
 import CandR from '../images/CandR.jpeg';
-import { Img, Center, LinkItem, Links, ImgWrap, MenuWrap } from '../styles/NavbarStyle';
+import { Img, NavDiv, LinkItem, Links, ImgWrap, MenuWrap, TopNav } from '../styles/NavbarStyle';
+import { Menu, Image, Input } from 'semantic-ui-react'
+
 const Navbar = () => {
   return (
-    <Center>
+    <>
+    {/* <NavDiv>
       <ImgWrap>
         <Img src={CandR} />
       </ImgWrap>
       
-      <MenuWrap>
+      <MenuWrap position='right'>
         <LinkItem>
           <Links to="/">
             Home
@@ -25,7 +28,32 @@ const Navbar = () => {
           </Links>
         </LinkItem>
       </MenuWrap>
-    </Center>
+    </NavDiv> */}
+    <Menu secondary style={{height: '100px', backgroundColor: '#400D32'}}>
+      <Menu secondary>
+        <Link to='/'>
+          <Image src={CandR} centered style={{height: '70px'}}/>
+        </Link>
+      </Menu>
+        <Menu.Menu position='right'>
+          <Link to="/">
+            <Menu.Item 
+              name='home'
+            />
+          </Link>
+          <Link to='/about'>
+            <Menu.Item 
+              name='about'
+            />
+          </Link>
+          <Link>
+            <Menu.Item 
+              name='mortgageCalculator'
+            />
+          </Link>
+        </Menu.Menu>
+    </Menu>
+    </>
   )
 }
 

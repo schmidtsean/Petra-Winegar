@@ -17,11 +17,9 @@ export const LinkItem = styled.li`
   list-style: none;
   padding: 5%;
   color: white;
- 
-  
 `
 
-export const Center = styled.div`
+export const NavDiv = styled.div`
 background-color: #6E6E6E;
 height: 80px;
 margin-top: -80;
@@ -44,6 +42,17 @@ position: absoulte;
 export const MenuWrap = styled(Menu)`
 align-items: center;
 display: flex;
-padding-right: 20%;
+padding-right: 10%;
+`
 
+export const TopNav = styled.div`
+background-color: #6E6E6E;
+height: 80px;
+margin-top: -80;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.25rem;
+position: sticky;
+top: 0;
 `
