@@ -34,8 +34,8 @@ const Navbar = () => {
       <p style={{paddingRight: '20px', color: 'white'}}>Mobile: (801) 949-1009  |  Email: petra@chapmanrichards.com</p>
     <Menu secondary style={{height: '50px', backgroundColor: '#400D32'}}>
       <Menu.Menu secondary>
-          <Image src={CandR} centered style={{height: '70px', position: 'fixed', top: '15px', left: '15px'}}/>
         <Link to='/'>
+          <Image src={CandR} centered style={{height: '70px', position: 'fixed', top: '15px', left: '15px'}}/>
         </Link>
       </Menu.Menu>
       <Menu.Menu position='right'>
