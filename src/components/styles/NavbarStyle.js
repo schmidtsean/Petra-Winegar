@@ -56,3 +56,8 @@ font-size: 1.25rem;
 position: sticky;
 top: 0;
 `
+
+export const MenuItem = styled(Menu.Item)`
+color: white;
+font-size: 16px;
+`
