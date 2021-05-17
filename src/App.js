@@ -5,6 +5,8 @@ import NavBar from './components/shared/NavBar';
 import NoMatch from './components/shared/NoMatch';
 import About from './components/shared/About';
 import MortgageCalc from './components/shared/MorgageCalc'
+import Footer from './components/shared/Footer'
+
 const App = () => (
   <>
     <Sticky>
@@ -19,6 +21,7 @@ const App = () => (
           <Route component={NoMatch} />
         </Switch>
       </Container>
+    <Footer />
   </>
 )
 
