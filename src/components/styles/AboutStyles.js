@@ -2,58 +2,60 @@ import { Container, Grid, Button } from 'semantic-ui-react';
 import styled from 'styled-components';
 
 export const Contain = styled(Container)`
-width:60% !important;
 color: white;
-float: right;
-padding-right: 20%;
-`
-
-export const Contain1 = styled.div`
-
+text-align: center;
 `
 
 export const ImageWrap = styled.div`
-height: 100px;
-padding-left: 5%;
+height: 86.5vh;
+padding-left: 3%;
 position: absolute;
 `
 
 export const Img = styled.img`
-height: 800%;
+height: 100%;
 width: absolute;
 
 `
 
-export const GridStyle = styled(Grid)`
+export const GridStyle = styled.div`
 background-color: #782020;
-height: 50em;
+height: 50vh;
+width: 115%;
+min-height: 625px;
+overflow: hidden;
+margin-left: -7%;
 `
 
 export const AboutBorder = styled.div`
 border-style: outset;
 color: white;
-padding-top: 5%;
-width: 60%;
-height: 30%;
-float: right;
-
+margin-top: 3%;
+height: 80vh;
+width: 58%;
+margin-left: 38%;
 `
 
 export const BorderGrid = styled(Grid)`
-padding-right: 3%;
-padding-top: 2.5%;
-height: 250%;
 `
 
 export const Header = styled.h1`
 font-size: 50px;
 text-align: center;
 font-family: Apple Chancery;
+padding-top: 10%;
 `
 
 export const Header1 = styled.h1`
-font-size: 25px;
+font-size: 20px;
 text-align: center;
+`
+
+export const Header2 = styled.h1`
+font-size: 20px;
+text-align: center;
+padding-bottom: 5px;
+line-height: 0px;
 
 `
 
@@ -67,11 +69,25 @@ padding-top: 5%;
 `
 
 export const Button1 = styled(Button)`
-border-style: outset;
-background-color: #782020;
+border-style: outset !important;
+background-color: #782020 !important;
+color: white !important;
 
 &:hover {
-  background: white;
-  color: black;
+  background: white !important;
+  color: black !important;
 }
+`
+
+export const DivWrap = styled.div`
+  background-color: #FFF9DD;
+  height: 50vh;
+  width: 115%;
+  min-height: 625px;
+  overflow: hidden;
+  margin-left: -7%;
+`
+
+export const GridListing = styled(Grid)`
+padding-left: 15% !important;
 `

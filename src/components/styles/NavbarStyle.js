@@ -21,14 +21,7 @@ export const LinkItem = styled.li`
 
 export const NavDiv = styled.div`
 background-color: #6E6E6E;
-height: 80px;
-margin-top: -80;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 1.25rem;
-position: sticky;
-top: 0;
+z-index: 1;
 `
 
 export const ImgWrap = styled.div`

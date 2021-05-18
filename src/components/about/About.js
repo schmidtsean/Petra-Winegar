@@ -1,5 +1,6 @@
-import { Contain, ImageWrap, Img, GridStyle, AboutBorder, BorderGrid, Header, Header1, Paragraph, EButton, Button1, Contain1 } from "../styles/AboutStyles";
+import { Contain, ImageWrap, Img, GridStyle, AboutBorder, BorderGrid, Header, Header1, Header2, Paragraph, EButton, Button1, Contain1 } from "../styles/AboutStyles";
 import Petra from '../images/Petra.jpeg';
+import AboutListings from "./AboutListings";
 
 const About = () => (
   <>
@@ -10,9 +11,9 @@ const About = () => (
       <BorderGrid>
         <AboutBorder>
           <Contain>
-            <Contain1>
               <Header>Petra Winegar</Header>
-                <Header1>Real Estate Agent - (801) 949-1009 petra@chapmanrichards.com</Header1>
+                <Header1>Real Estate Agent - (801) 949-1009 </Header1>
+                <Header2> petra@chapmanrichards.com</Header2>
                 
                 <Paragraph style={{textAlign: 'center'}}>As a Business Executive of 20 years, I have had the privilege of associating with several top companies throughout the world. It is, therefore, both a pleasure and an honor to work with the most respected and dedicated real estate company in Salt Lake City.
 
@@ -27,11 +28,11 @@ const About = () => (
                       <Button1>Email Petra</Button1>
                     </a>
                   </EButton>
-                </Contain1>
           </Contain>
         </AboutBorder>
       </BorderGrid>
     </GridStyle>
+    <AboutListings />
   </>
 )
 
