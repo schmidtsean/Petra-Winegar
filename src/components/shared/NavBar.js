@@ -29,10 +29,10 @@ const Navbar = () => {
         </LinkItem>
       </MenuWrap>
     </NavDiv> */}
-    <div style={{textAlign: 'right', backgroundColor: '#400D32'}}>
+    <NavDiv style={{textAlign: 'right', backgroundColor: '#6E6E6E'}}>
       <br/>
       <p style={{paddingRight: '20px', color: 'white'}}>Mobile: (801) 949-1009  |  Email: petra@chapmanrichards.com</p>
-    <Menu secondary style={{height: '50px', backgroundColor: '#400D32'}}>
+    <Menu secondary style={{height: '50px', backgroundColor: '#6E6E6E'}}>
       <Menu.Menu secondary>
         <Link to='/'>
           <Image src={CandR} centered style={{height: '70px', position: 'fixed', top: '15px', left: '15px'}}/>
@@ -65,7 +65,7 @@ const Navbar = () => {
         </Link>
       </Menu.Menu>
     </Menu>
-    </div>
+    </NavDiv>
     </>
   )
 }
