@@ -3,7 +3,7 @@ import { Container, Sticky } from 'semantic-ui-react';
 import Home from './components/shared/Home';
 import NavBar from './components/shared/NavBar';
 import NoMatch from './components/shared/NoMatch';
-import About from './components/shared/About';
+import About from './components/about/About';
 import MortgageCalc from './components/shared/MorgageCalc'
 import Footer from './components/shared/Footer'
 

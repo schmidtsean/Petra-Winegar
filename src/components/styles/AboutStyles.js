@@ -69,11 +69,25 @@ padding-top: 5%;
 `
 
 export const Button1 = styled(Button)`
-border-style: outset;
-background-color: #782020;
+border-style: outset !important;
+background-color: #782020 !important;
+color: white !important;
 
 &:hover {
-  background: white;
-  color: black;
+  background: white !important;
+  color: black !important;
 }
+`
+
+export const DivWrap = styled.div`
+  background-color: #FFF9DD;
+  height: 50vh;
+  width: 115%;
+  min-height: 625px;
+  overflow: hidden;
+  margin-left: -7%;
+`
+
+export const GridListing = styled(Grid)`
+padding-left: 15% !important;
 `
