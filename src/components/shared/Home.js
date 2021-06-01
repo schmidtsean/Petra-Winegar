@@ -5,9 +5,7 @@ import {Agent, Center} from '../styles/HomeStyles'
 const Home = () => (
   <>
     <Center>
-      <h1>Petra Winegar</h1>
-        <Agent src={Petra} />
-        <h2>Real Estate Agent</h2>
+     <h1>Listings</h1>
     </Center>
   </>
 )

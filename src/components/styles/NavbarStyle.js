@@ -21,7 +21,7 @@ export const LinkItem = styled.li`
 
 export const NavDiv = styled.div`
 background-color: #6E6E6E;
-z-index: 1;
+
 `
 
 export const ImgWrap = styled.div`
